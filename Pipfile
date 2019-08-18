@@ -11,6 +11,7 @@ numpy = "*"
 matplotlib = "*"
 opencv-python = "*"
 pyrealsense2 = "*"
+django = "*"
 
 [requires]
 python_version = "3.6"
