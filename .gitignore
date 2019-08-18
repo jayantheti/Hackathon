@@ -1,2 +1,8 @@
 # sample pickle file
 real_record.pkl
+
+# idea files
+.idea
+
+# vscode files
+.vscode
