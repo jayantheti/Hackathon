@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 import pickle
 
-from RealSenseCamera import RealSenseCamera
+# from RealSenseCamera import RealSenseCamera
 
 file = open('real_record.pkl', 'rb')
 frames = pickle.load(file)
@@ -17,5 +17,3 @@ for frame in frames:
     print(' depth at pixel (250,375) : ', depth_image[250][375] / 1000)
     cv2.waitKey(1)
     sleep(0.03)
-
-
